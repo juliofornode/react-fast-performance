@@ -14,7 +14,7 @@ class World extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: 'ReactSpeed',
+      name: 'React',
       greeting: props.greeting
     };
     this.greetInHindu = this.greetInHindu.bind(this);

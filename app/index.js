@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import World from './World.jsx';
+import Home from './Home';
 
 ReactDOM.render(
-  <World />,
+  <Home />,
   document.getElementById('app')
 );
