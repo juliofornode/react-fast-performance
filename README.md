@@ -10,4 +10,5 @@ react production settings, Webpack Analysis Tool
 
 ### Custom React Components: Functionality
 * Reusable React Component to embed YouTube videos.
-* Reusable React Component to include Font Awesome icons. 
+* Reusable React Component to display Font Awesome icons.
+* Reusable React Component to display data from the GitHub API.
