@@ -17,11 +17,12 @@ h2 {
 }
 
 a {
-  color: steelblue;
+  color: $primary;
   text-decoration: none;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
   border-bottom: 1px solid steelblue;
   cursor: pointer;
 }
