@@ -2,6 +2,7 @@ import React, { PropTypes, Component } from 'react';
 import World from './World';
 import Card from './Card';
 import YouTube from './YouTube';
+import IconText from './IconText';
 
 export default class Home extends Component {
   render() {
@@ -44,19 +45,7 @@ export default class Home extends Component {
           </Card>
 
         </section>
-        <section className="stripe">
-          <Card plain
-            className="col--one-third text--center back--white">
-              <YouTube videoid="tuK6n2Lkza0" />
-          </Card>
-          <Card plain className="col--half text--center">
-            <h1>Embed React Components</h1>
-            <p className="subtext">
-              This custom component demonstrates media
-              embed within custom React component.
-            </p>
-          </Card>
-        </section>
+
         <section className="stripe back--default">
 
           <Card plain className="col--half text--center">
@@ -72,6 +61,53 @@ export default class Home extends Component {
           </Card>
 
         </section>
+
+        <section className="stripe">
+          <Card plain
+            className="col--one-third text--center back--white">
+              <YouTube videoid="tuK6n2Lkza0" />
+          </Card>
+          <Card plain className="col--half text--center">
+            <h1>Embed React Components</h1>
+            <p className="subtext">
+              This custom component demonstrates media
+              embed within custom React component.
+            </p>
+          </Card>
+        </section>
+
+        <section className="stripe back--default">
+          <Card className="col--one-third text--center back--white">
+            <IconText className="primary" icon="globe" size="5x"
+              text="Nine Component Creation Strategies" />
+          </Card>
+          <Card className="col--one-fourth back--white">
+            <h3>
+              <IconText slim className="danger" icon="building"
+                text="Modular Architecture" />
+            </h3>
+            <h3>
+              <IconText slim className="default" icon="cloud"
+                text="Leverages Cloud" />
+            </h3>
+            <h3>
+              <IconText slim className="secondary" icon="cog"
+                text="30 Custom Components" />
+            </h3>
+            <h3>
+              <IconText slim className="warning" icon="bullseye"
+                text="Goal Oriented Design" />
+            </h3>
+          </Card>
+          <Card plain className="col--one-third text--center">
+            <h1>Font Awesome</h1>
+            <p className="subtext">
+              The popular CSS library transformed into a custom reusable React component.
+            </p>
+          </Card>
+        </section>
+
+
         <section className="stripe--slim back--gray">
 
           <Card plain className="col--full text--center white">
