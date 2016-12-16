@@ -8,10 +8,11 @@ React, Babel, Webpack, Webpack-Dev-Server, Hot-Reloading, PostCSS (faster SaSS a
 Clean build, optimize html, extract css, dedupe (optional), separate js bundles, js minification,
 react production settings, Webpack Analysis Tool
 
-### Custom React Components: Functionality
-* Reusable React Component to embed YouTube videos.
-* Reusable React Component to display Font Awesome icons.
-* Reusable React Component to display data from the GitHub API.
-* Reusable React Component to keep track of a project workflow and tasks.
-* Reusable React Component to customize the html button tag.
-* Reusable React Component to display a group of button components.
+### Reusable React Components:
+* To embed YouTube videos.
+* To display Font Awesome icons.
+* To display data from the GitHub API (using lifecycle methods).
+* To keep track of a project workflow and tasks.
+* To customize the html button tag.
+* To display a group of button components.
+* To customize the html input, input label and form tags.
