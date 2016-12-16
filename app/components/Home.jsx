@@ -5,6 +5,8 @@ import YouTube from './YouTube';
 import IconText from './IconText';
 import GitHub from './GitHub';
 import Workflow from './Workflow';
+import ButtonDemo from './ButtonDemo';
+import Button from './Button';
 
 export default class Home extends Component {
   render() {
@@ -129,9 +131,38 @@ export default class Home extends Component {
               Displays the tasks and subtasks included in a project.
             </p>
           </Card>
-          <Card className="col--one-third back--secondary">
+          <Card className="col--one-third back--success">
             <Workflow />
           </Card>
+        </section>
+
+        <section className="stripe">
+          
+          <Card className="col--one-third text--center back--white">
+            <p>Click does not do much...</p>
+            <Button label="Default" color="default" />
+            <Button label="Primary" color="primary" />
+            <Button label="Secondary" color="secondary" />
+            <Button label="Warning" color="warning" />
+            <Button label="Success" color="success" />
+            <Button label="Danger" color="danger" />
+          </Card>
+
+          <Card className="col--quarter text--center back--white">
+            <ButtonDemo
+              colors={['Primary', 'Success', 'Danger', 'Warning']}
+            />
+          </Card>
+
+          <Card className="text--center back--white">
+            <ButtonDemo
+              colors={['Secondary', 'Success', 'Danger', 'Warning']}
+              sizes={['large', 'medium', 'medium', 'small']}
+              icons={['coffee', 'cloud', 'flash', 'plug']}
+              iconOnly
+            />
+          </Card>
+
         </section>
 
         <section className="stripe--slim back--gray">

@@ -4,7 +4,10 @@ $primary: steelblue;
 $secondary: teal;
 $danger: crimson;
 $warning: tomato;
-$success: mediumseagreen;
+$success: navy;
+$rosa: lightslategray;
+$azul: darkslateblue;
+$whitesmoke: whitesmoke;
 
 /* Light color palette */
 $default-light: color(whitesmoke tint(50%));
@@ -12,4 +15,4 @@ $primary-light: color(navy tint(70%));
 $secondary-light: color(hotpink tint(50%));
 $danger-light: lightpink;
 $warning-light: moccasin;
-$success-light: silver;
+$success-light: powderblue;
