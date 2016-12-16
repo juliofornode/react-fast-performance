@@ -3,6 +3,7 @@ import World from './World';
 import Card from './Card';
 import YouTube from './YouTube';
 import IconText from './IconText';
+import GitHub from './GitHub';
 
 export default class Home extends Component {
   render() {
@@ -87,7 +88,7 @@ export default class Home extends Component {
                 text="Modular Architecture" />
             </h3>
             <h3>
-              <IconText slim className="default" icon="cloud"
+              <IconText slim className="success" icon="cloud"
                 text="Leverages Cloud" />
             </h3>
             <h3>
@@ -107,6 +108,17 @@ export default class Home extends Component {
           </Card>
         </section>
 
+        <section className="stripe">
+          <Card className="col--quarter text--center back--default">
+            <GitHub repo="angular/angular" />
+          </Card>
+          <Card className="col--quarter text--center back--default">
+            <GitHub repo="facebook/react" />
+          </Card>
+          <Card className="col--quarter text--center back--default">
+            <GitHub repo="meteor/meteor" />
+          </Card>
+        </section>
 
         <section className="stripe--slim back--gray">
 

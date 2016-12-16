@@ -8,8 +8,8 @@ $success: mediumseagreen;
 
 /* Light color palette */
 $default-light: color(whitesmoke tint(50%));
-$primary-light: color(lightsteelblue tint(70%));
-$secondary-light: color(lightcyan tint(50%));
+$primary-light: color(navy tint(70%));
+$secondary-light: color(hotpink tint(50%));
 $danger-light: lightpink;
 $warning-light: moccasin;
-$success-light: honeydew;
+$success-light: silver;
