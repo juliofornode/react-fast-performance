@@ -13,3 +13,5 @@ react production settings, Webpack Analysis Tool
 * Reusable React Component to display Font Awesome icons.
 * Reusable React Component to display data from the GitHub API.
 * Reusable React Component to keep track of a project workflow and tasks.
+* Reusable React Component to customize the html button tag.
+* Reusable React Component to display a group of button components.
