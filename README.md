@@ -24,3 +24,6 @@ react production settings, Webpack Analysis Tool
 ### Multi-device UI Testing
 * Using Browsersync to test the UI in different mobile devices (to be tested with XCode
   and iOS Simulator). Use the script in package.json to run this test.
+
+### Linting Tools
+* Installed modules for linting with ESLint.
