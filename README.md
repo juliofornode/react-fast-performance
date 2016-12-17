@@ -27,3 +27,4 @@ react production settings, Webpack Analysis Tool
 
 ### Linting Tools
 * Installed modules for linting with ESLint.
+* Installed modules for CSS linting with StyleLint.
