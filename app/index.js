@@ -1,4 +1,4 @@
-aimport React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import Landing from './components/Landing.jsx';
 import AboutBook from './components/AboutBook';
