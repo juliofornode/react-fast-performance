@@ -17,3 +17,6 @@ react production settings, Webpack Analysis Tool
 * To display a group of button components.
 * To customize the html input, input label and form tags.
 * To display charts (using rumble-charts module).
+
+### Routing
+* Using react-router. The landing component acts like main holder of the subpages.
