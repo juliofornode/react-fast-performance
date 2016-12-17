@@ -20,3 +20,6 @@ react production settings, Webpack Analysis Tool
 
 ### Routing
 * Using react-router. The landing component acts like main holder of the subpages.
+
+### Multi-device UI Testing
+* Using Browsersync to test the UI in different mobile devices (to be tested with XCode and iOS Simulator)
