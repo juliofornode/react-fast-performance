@@ -23,11 +23,11 @@ class World extends Component {
   }
 
   greetInHindu() {
-    this.setState({ greeting: 'Namaste!' });
+    this.setState({ greeting: 'Hola' });
   }
 
   greetInSlang() {
-    this.setState({ greeting: 'Hey Yo!' });
+    this.setState({ greeting: 'Hey Yo' });
   }
 
   setName(eventObject) {
@@ -44,7 +44,7 @@ class World extends Component {
       <div className="World-card">
         <Hello greet={CompleteGreeting} message="World!" />
         <h2>
-          <a onClick={this.greetInHindu}>Hindu</a>
+          <a onClick={this.greetInHindu}>Spanish</a>
           &nbsp; OR &nbsp;
           <a onClick={this.greetInSlang}>Slang</a>
         </h2>
