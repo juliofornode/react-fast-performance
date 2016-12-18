@@ -38,3 +38,6 @@ value makes them unable to access the Mocha context.
 ### Refactoring exercises.
 * Refactored ES5 Todo App presented in React's documentation page.
 * Use of SVG icons instead of Font Awesome icons: see IconSvg.jsx component (not implemented: use of IconSvg instead of IconText).
+
+### Redux implementation
+* Implemented in Features List App.
