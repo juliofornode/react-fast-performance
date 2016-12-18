@@ -34,3 +34,6 @@ react production settings, Webpack Analysis Tool
 * Passing arrow functions to Mocha is discouraged when the test uses the "this" keyword. Their lexical binding of the "this"
 value makes them unable to access the Mocha context.
 * We do not need to supply the path to our tests as Mocha picks up ./test/ by default for tests to run.
+
+### Refactoring exercises.
+* Refactored ES5 Todo App presented in React's documentation page.
