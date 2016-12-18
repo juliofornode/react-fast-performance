@@ -28,3 +28,9 @@ react production settings, Webpack Analysis Tool
 ### Linting Tools
 * Installed modules for linting with ESLint.
 * Installed modules for CSS linting with StyleLint.
+
+### Testing Tools and important notes.
+* Main tools: Mocha (test runner in the server), Chai (assertion library), Sinon (spies) and Instanbul (test coverage).
+* Passing arrow functions to Mocha is discouraged when the test uses the "this" keyword. Their lexical binding of the "this"
+value makes them unable to access the Mocha context.
+* We do not need to supply the path to our tests as Mocha picks up ./test/ by default for tests to run.
