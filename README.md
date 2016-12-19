@@ -41,3 +41,6 @@ value makes them unable to access the Mocha context.
 
 ### Redux implementation
 * Implemented in Features List App.
+
+### Firebase implementation
+* Firebase hosting
