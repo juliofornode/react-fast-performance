@@ -44,3 +44,6 @@ value makes them unable to access the Mocha context.
 
 ### Firebase implementation
 * Firebase hosting
+
+### Miscellanea
+* Redux DevTools integration
